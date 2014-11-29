@@ -57,7 +57,7 @@ namespace :respond do
         srcdir    = "#{dirname}/Respond"
         targetdir = Rake.original_dir
 
-        cp "#{srcdir}/respond.min.js",                  "#{targetdir}/vendor/assets/javascripts/respond.js"
+        cp "#{srcdir}/dest/respond.min.js",                  "#{targetdir}/vendor/assets/javascripts/respond.js"
         cp "#{srcdir}/cross-domain/respond-proxy.html", "#{targetdir}/vendor/assets/javascripts/respond-proxy.html"
         cp "#{srcdir}/cross-domain/respond.proxy.js",   "#{targetdir}/vendor/assets/javascripts/respond.proxy.js"
         cp "#{srcdir}/cross-domain/respond.proxy.gif",  "#{targetdir}/vendor/assets/images/respond.proxy.gif"
