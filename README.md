@@ -7,7 +7,7 @@ Respond.js provides a fast and lightweight script to enable responsive web desig
 Include the gem in your Gemfile:
 
 ```ruby
-    gem "respond-rails", "~> 1.0"
+    gem "respond-rails", "~> 1.0", git: 'https://github.com/floriank/respond-rails', branch: 'respond-1.4.2'
 ```
 
 Include Respond.js in your application layout like so:
